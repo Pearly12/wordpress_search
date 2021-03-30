@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/39b3666712.js" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <button class="js-search-trigger" id="search">Search</button>
+    <div class="search-overlay">
+      <div class="search-overlay__top">
+        <div class="container">
+          <i class="fa fa-search search-overlay__icon" aria-hidden="true"></i>
+          <input type="text" class="search-term" autocomplete="off" placeholder="Search..." id="search-term">
+          <i class="fa fa-window-close search-overlay__close" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="results">
+        <div id="search-overlay__results">
+        </div>
+      </div>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
